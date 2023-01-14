@@ -2,7 +2,9 @@ window.alert("Aloha, E Komo Mai \\000/"); //this is to create a popup alert when
 
 var x = "\"aloha mai ka kou, "; //setting variable x with string
 
-document.write(x + "'o Mahea ko'u inoa.\" "); //calling write function
+var y = "'o Mahea ko'u inoa.\""; //setting variable x with string
+
+document.write(x + y);
 
 var b = "Translation: " + "Hello all! My name is Mahea."; //setting variable b with string
 
