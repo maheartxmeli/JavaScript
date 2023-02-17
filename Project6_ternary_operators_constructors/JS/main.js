@@ -15,7 +15,7 @@ function voting_Function() {
 }
 
 //function using "this" and "new" keywords for different types of vehicles
-function Vehicle(Make, Model, Year, Color); {
+function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
     this.Vehicle_Year = Year;
@@ -35,7 +35,7 @@ function This_Function(Breed, Color, Size) {
     this.Dog_Size = Size;
 }
 var Meli = new This_Function("Pitbull", "Brown", "70 lbs");
-var Honey Girl = new This_Function("Rottweiler", "Black", "90 lbs");
+var Honey_Girl = new This_Function("Rottweiler", "Black", "90 lbs");
 var Buddy = new This_Function("Fox Terrier", "White and Black", "12 lbs");
 function my_Dog() {
     document.getElementById("New_and_This").innerHTML = "My first dog's name was Buddy. He was a " + Buddy.Dog_Color + " " + Buddy.Dog_Breed + " who was only " + Buddy.Dog_Size;
