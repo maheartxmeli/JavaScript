@@ -1,4 +1,4 @@
-//loop function
+//while loop function
 function call_Loop() {
     var Num = "";
     var x = 1;
@@ -16,7 +16,7 @@ function string_Length() {
     document.getElementById("string_length").innerHTML = length;
 }
 
-//list function
+//list for function
 var Instruments = ["Violin", "Guitar", "Piano", "Cello", "Drums", "Bass"]
 var Content = "";
 var Y;
